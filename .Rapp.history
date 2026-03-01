@@ -1,0 +1,14 @@
+install.packages("rmarkdown")
+install.packages("rmarkdown")
+install.packages("knit")
+install.packages("yaml")
+install.packages("knit", dependencies = TRUE)
+install.packages("knit")
+install.packages("knitr")
+---
+ls()
+dir
+ls
+rmarkdown::render_site()
+setwd("/Users/carolafrydman/Carola Dropbox/Carola Frydman/Papun/website_new copy")
+rmarkdown::render_site()

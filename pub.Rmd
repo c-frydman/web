@@ -10,10 +10,29 @@ title: "Publications"
 (with [Asaf Bernstein](https://leeds-faculty.colorado.edu/AsafBernstein/) and [Eric Hilt](http://www.erichilt.net/))  
 
 ##### Journal of Political Economy, 2026, vol. 143(3) 
-[[Paper](https://www.dropbox.com/s/muu3ch90kr3r3a5/Ratings_BFH_April23.pdf?raw=1)]
+[[Paper](https://www.dropbox.com/scl/fi/asxbwlgry04xs06rarez9/BernsteinFrydmanHilt.pdf?rlkey=7x2wqvf6r2dzkaw8dew0f5gzf&raw=1)]
+[[Appendix](https://www.dropbox.com/scl/fi/aubya476u0a3n4paizp3p/Appendix.pdf?rlkey=ry9d2q6w2vauyv6ds1ut81ch0&raw=1)]
+
 
 &nbsp;
 
+#### Homeownership and Housing Equity in the Mid-Twentieth Century
+(with [Raven Molloy](https://www.federalreserve.gov/econres/raven-molloy.htm) and Austin Palis)
+
+##### FEDS Notes. Washington: Board of Governors of the Federal Reserve System, September 24, 2025, https://doi.org/10.17016/2380-7172.3869
+[[Paper](https://www.federalreserve.gov/econres/notes/feds-notes/homeownership-and-housing-equity-in-the-mid-twentieth-century-20250924.html)]
+[[Data](https://www.federalreserve.gov/econres/notes/feds-notes/homeownership-and-housing-equity-in-the-mid-twentieth-century-accessible-20250924.htm)]
+
+
+&nbsp;
+
+#### A Real Great Compression: Inflation and Inequality in the 1940s 
+(with [Raven Molloy](https://www.federalreserve.gov/econres/raven-molloy.htm)) 
+
+##### The Economic History of American Inequality: New Evidence and Perspectives, edited by Martha J. Bailey, Leah Platt Boustan, and William J. Collins. Chicago: University of Chicago Press, 2025. 
+[[Paper](https://www.dropbox.com/scl/fi/vuw5n5urc1j4se9w3vxv4/FM_RealGreatCompression.pdf?rlkey=auwmcqv7lq3c7fsoih3jufh8c&raw=1)]
+
+&nbsp;
 
 #### Historical Banking Crises 
 (with [Chenzi Xu](https://chenzi-xu.com/)) 
