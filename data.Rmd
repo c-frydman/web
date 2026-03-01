@@ -1,0 +1,11 @@
+---
+title: "Data Library"
+---
+
+&nbsp;
+
+### 1. [Executive Compensation: A New View from a Long-Term Perspective, 1936-2005](https://doi.org/10.1093/rfs/hhp120)
+[[Data](https://www.dropbox.com/s/dr9t2md3eixh3gg/frydmansaks_figures_rfs.xlsx?raw=1)]
+[[Micro-level Data](https://www.dropbox.com/s/rzt4d6u8nma53hr/frydmansaks.dta.zip?raw=1)]
+
+&nbsp;
