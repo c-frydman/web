@@ -1,0 +1,139 @@
+---
+title: "Publications"
+---
+&nbsp;
+
+
+
+
+#### The Value of Ratings: Evidence from their Introduction in Securities Markets
+(with [Asaf Bernstein](https://leeds-faculty.colorado.edu/AsafBernstein/) and [Eric Hilt](http://www.erichilt.net/))  
+
+##### Journal of Political Economy, 2026, vol. 143(3)
+[[Paper](https://www.dropbox.com/s/muu3ch90kr3r3a5/Ratings_BFH_April23.pdf?raw=1)]
+
+&nbsp;
+
+
+#### Historical Banking Crises 
+(with [Chenzi Xu](https://chenzi-xu.com/)) 
+
+##### Annual Review of Financial Economics, 2023, Vol. 15: 265-290
+[[Paper](https://www.dropbox.com/s/s3faf5tik07b7dx/ARFE_March2023.pdf?raw=1)]
+
+&nbsp;
+
+#### Political Discretion and Antitrust Policy: Evidence from the Assassination of President McKinley 
+(with [Richard B. Baker](https://business.tcnj.edu/business-faculty/richard-baker/) and [Eric Hilt](http://www.erichilt.net/))
+
+##### Journal of Law and Economics, 2023, vol. 66(4) 
+
+[[Paper](https://www.dropbox.com/s/somqrpaagx042fq/McKinley_Final%20Version.pdf?raw=1)] [[Web Appendix](https://www.dropbox.com/s/srd5qh9imo3b4ms/OnlineAppendix_McKinley_Final%20Version.pdf?raw=1)]
+
+&nbsp;
+
+#### Financial Frictions and Employment during the Great Depression 
+(with [Efraim Benmelech](https://effibenmelech.com/) and [Dimitris Papanikolaou](https://dimitris-papanikolaou.github.io/website/))
+ 
+##### Journal of Financial Economics, 2019, vol. 133(3), 541-563 
+
+[[Paper](https://www.dropbox.com/s/y9jxoaq00uutoto/GD_bfp.pdf?raw=1)] [[Web Appendix](https://www.dropbox.com/s/gtnboyrofznx3s3/GD_OA.pdf?raw=1)]
+
+&nbsp;
+
+
+#### In Search of Ideas: Technological Innovation and Executive Pay Inequality  
+(with [Dimitris Papanikolaou](https://dimitris-papanikolaou.github.io/website/))
+
+##### Journal of Financial Economics, 2018, vol. 130(1), 1-24 
+ 
+[[Paper](https://www.dropbox.com/s/7yp3a08l6bvjsa9/FP_executives.pdf?raw=1)] [[Web Appendix](https://www.dropbox.com/s/42oiy7hu6r0rm3q/WebAppendix_FP.pdf?rawg=1)] [[Non-technical Summary]](https://insight.kellogg.northwestern.edu/article/technological-innovation-and-the-executive-pay-gap)
+
+&nbsp;
+
+#### Investment Banks as Corporate Monitors in the Early 20th Century 
+(with [Eric Hilt](http://www.erichilt.net/))
+
+##### American Economic Review, July 2017, vol. 107(7): 1938-70
+
+[[Paper](https://www.dropbox.com/s/gewjpji156lnze1/UnderwritersonBoards.pdf?raw=1)] [[Web Appendix](https://www.dropbox.com/s/fbm9ywbkscgt28i/UnderwritersonBoards_appendix.pdf?raw=1)]
+
+&nbsp;
+
+#### Rising Through the Ranks: The Evolution of the Market for Corporate Executives, 1936-2003
+
+##### Management Science, November 2019, vol. 65(11)
+
+[[Paper](https://www.dropbox.com/s/ghmubctcx5a5m2d/Frydman_Rising%20Through%20the%20Ranks_2018.pdf?raw=1)]
+
+
+&nbsp;
+
+#### Economic Effects of Early `Shadow Banks': Trust Companies and the Panic of 1907 
+
+(with [Eric Hilt](http://www.erichilt.net/) and Lily Y. Zhou)
+
+##### Journal of Political Economy, August 2015, vol. 123(4): 902-40.
+
+[[Paper](https://www.dropbox.com/s/oazgwzf4dthwdi3/Panic_0314.pdf?raw=1)]
+
+&nbsp;
+
+#### Military CEOs 
+
+(with [Efraim Benmelech](https://effibenmelech.com/))
+
+##### Journal of Financial Economics, July 2015, vol. 117(1): 43-59.
+  
+[[Paper](https://www.dropbox.com/s/pju6n8brlfqzzla/militaryceos_Dec_2013.pdf?raw=1)] 
+
+
+&nbsp;
+
+
+#### Pay Cuts for the Boss: Executive Compensation in the 1940s 
+
+(joint with [Raven Molloy](https://www.federalreserve.gov/econres/raven-molloy.htm))
+
+##### Journal of Economic History 72 (March 2012): 225-251
+ 
+[[Paper](https://www.dropbox.com/s/83i0mycda78g1a2/frydmanmolloy_paycuts.pdf?raw=1)]
+
+&nbsp;
+
+#### Does Tax Policy Affect Executive Compensation? Evidence from Postwar Tax Reforms  
+
+(with [Raven Molloy](https://www.federalreserve.gov/econres/raven-molloy.htm))
+
+##### Journal of Public Economics 95 (December 2011): 1425-37
+ 
+[[Paper](https://www.dropbox.com/s/zzofok45sxfhclc/taxec_frydmanmolloy_1110.pdf?raw=1)]
+
+&nbsp;
+
+#### CEO Compensation 
+
+(with [Dirk Jenter](https://www.lse.ac.uk/finance/people/faculty/Jenter))
+
+##### Annual Review of Financial Economics 2 (December 2010): 75-102
+
+[[Paper](https://www.annualreviews.org/doi/full/10.1146/annurev-financial-120209-133958)]
+ 
+&nbsp;
+
+ 
+#### Executive Compensation: A New View from a Long-Term Perspective, 1936-2005  
+
+(with [Raven Saks](https://www.federalreserve.gov/econres/raven-molloy.htm))
+
+##### Review of Financial Studies 23 (May 2010): 2099-2138
+  
+[[Paper](https://www.dropbox.com/s/4xs5xbjhgt833oq/trends_rfs2010.pdf?raw=1)]
+[[Web Appendix](https://www.dropbox.com/s/5qf7zhxskevq8sa/appendix1109.pdf?raw=1)]
+[[Data](https://www.dropbox.com/s/dr9t2md3eixh3gg/frydmansaks_figures_rfs.xlsx?raw=1)]
+[[Micro-level Data](https://www.dropbox.com/s/rzt4d6u8nma53hr/frydmansaks.dta.zip?raw=1)]
+
+
+
+ 
+ 

@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Publications</title>
+
+<script src="site_libs/header-attrs-2.30/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/spacelab.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-6.5.2/css/all.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.5.2/css/v4-shims.min.css" rel="stylesheet" />
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-inverse  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html"></a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">
+    <span class="fa fa-home"></span>
+     
+    Home
+  </a>
+</li>
+<li>
+  <a href="wp.html">
+    <span class="fa fa-newspaper-o"></span>
+     
+    Working Papers
+  </a>
+</li>
+<li>
+  <a href="pub.html">
+    <span class="fa fa-graduation-cap"></span>
+     
+    Publications
+  </a>
+</li>
+<li>
+  <a href="opub.html">
+    <span class="fa fa-commenting-o"></span>
+     
+    Other
+  </a>
+</li>
+<li>
+  <a href="data.html">
+    <span class="fa fa-database"></span>
+     
+    Data
+  </a>
+</li>
+<li>
+  <a href="media.html">
+    <span class="fa fa-podcast"></span>
+     
+    Media
+  </a>
+</li>
+<li>
+  <a href="https://www.dropbox.com/scl/fi/qgpy6v7nz23hse6x14oq5/CV_Frydman_Carola_0924.pdf?rlkey=wp32q4hj2dxg96ly5yt47j7cr&amp;raw=1">
+    <span class="fa fa-file-pdf-o"></span>
+     
+    CV
+  </a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="mailto:c-frydman@kellogg.northwestern.edu">
+    <span class="fa fa-envelope-o"></span>
+     
+    Email
+  </a>
+</li>
+<li>
+  <a href="https://scholar.google.com/citations?user=td7j7bEAAAAJ&amp;hl=en">
+    <span class="fa fa-google"></span>
+     
+    Google Scholar
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Publications</h1>
+
+</div>
+
+
+<p> </p>
+<div
+id="the-value-of-ratings-evidence-from-their-introduction-in-securities-markets"
+class="section level4">
+<h4>The Value of Ratings: Evidence from their Introduction in Securities
+Markets</h4>
+<p>(with <a
+href="https://leeds-faculty.colorado.edu/AsafBernstein/">Asaf
+Bernstein</a> and <a href="http://www.erichilt.net/">Eric Hilt</a>)</p>
+<div id="journal-of-political-economy-2026-vol.-1433"
+class="section level5">
+<h5>Journal of Political Economy, 2026, vol. 143(3)</h5>
+<p>[<a
+href="https://www.dropbox.com/s/muu3ch90kr3r3a5/Ratings_BFH_April23.pdf?raw=1">Paper</a>]</p>
+<p> </p>
+</div>
+</div>
+<div id="historical-banking-crises" class="section level4">
+<h4>Historical Banking Crises</h4>
+<p>(with <a href="https://chenzi-xu.com/">Chenzi Xu</a>)</p>
+<div id="annual-review-of-financial-economics-2023-vol.-15-265-290"
+class="section level5">
+<h5>Annual Review of Financial Economics, 2023, Vol. 15: 265-290</h5>
+<p>[<a
+href="https://www.dropbox.com/s/s3faf5tik07b7dx/ARFE_March2023.pdf?raw=1">Paper</a>]</p>
+<p> </p>
+</div>
+</div>
+<div
+id="political-discretion-and-antitrust-policy-evidence-from-the-assassination-of-president-mckinley"
+class="section level4">
+<h4>Political Discretion and Antitrust Policy: Evidence from the
+Assassination of President McKinley</h4>
+<p>(with <a
+href="https://business.tcnj.edu/business-faculty/richard-baker/">Richard
+B. Baker</a> and <a href="http://www.erichilt.net/">Eric Hilt</a>)</p>
+<div id="journal-of-law-and-economics-2023-vol.-664"
+class="section level5">
+<h5>Journal of Law and Economics, 2023, vol. 66(4)</h5>
+<p>[<a
+href="https://www.dropbox.com/s/somqrpaagx042fq/McKinley_Final%20Version.pdf?raw=1">Paper</a>]
+[<a
+href="https://www.dropbox.com/s/srd5qh9imo3b4ms/OnlineAppendix_McKinley_Final%20Version.pdf?raw=1">Web
+Appendix</a>]</p>
+<p> </p>
+</div>
+</div>
+<div id="financial-frictions-and-employment-during-the-great-depression"
+class="section level4">
+<h4>Financial Frictions and Employment during the Great Depression</h4>
+<p>(with <a href="https://effibenmelech.com/">Efraim Benmelech</a> and
+<a href="https://dimitris-papanikolaou.github.io/website/">Dimitris
+Papanikolaou</a>)</p>
+<div id="journal-of-financial-economics-2019-vol.-1333-541-563"
+class="section level5">
+<h5>Journal of Financial Economics, 2019, vol. 133(3), 541-563</h5>
+<p>[<a
+href="https://www.dropbox.com/s/y9jxoaq00uutoto/GD_bfp.pdf?raw=1">Paper</a>]
+[<a href="https://www.dropbox.com/s/gtnboyrofznx3s3/GD_OA.pdf?raw=1">Web
+Appendix</a>]</p>
+<p> </p>
+</div>
+</div>
+<div
+id="in-search-of-ideas-technological-innovation-and-executive-pay-inequality"
+class="section level4">
+<h4>In Search of Ideas: Technological Innovation and Executive Pay
+Inequality</h4>
+<p>(with <a
+href="https://dimitris-papanikolaou.github.io/website/">Dimitris
+Papanikolaou</a>)</p>
+<div id="journal-of-financial-economics-2018-vol.-1301-1-24"
+class="section level5">
+<h5>Journal of Financial Economics, 2018, vol. 130(1), 1-24</h5>
+<p>[<a
+href="https://www.dropbox.com/s/7yp3a08l6bvjsa9/FP_executives.pdf?raw=1">Paper</a>]
+[<a
+href="https://www.dropbox.com/s/42oiy7hu6r0rm3q/WebAppendix_FP.pdf?rawg=1">Web
+Appendix</a>] <a
+href="https://insight.kellogg.northwestern.edu/article/technological-innovation-and-the-executive-pay-gap">[Non-technical
+Summary]</a></p>
+<p> </p>
+</div>
+</div>
+<div
+id="investment-banks-as-corporate-monitors-in-the-early-20th-century"
+class="section level4">
+<h4>Investment Banks as Corporate Monitors in the Early 20th
+Century</h4>
+<p>(with <a href="http://www.erichilt.net/">Eric Hilt</a>)</p>
+<div id="american-economic-review-july-2017-vol.-1077-1938-70"
+class="section level5">
+<h5>American Economic Review, July 2017, vol. 107(7): 1938-70</h5>
+<p>[<a
+href="https://www.dropbox.com/s/gewjpji156lnze1/UnderwritersonBoards.pdf?raw=1">Paper</a>]
+[<a
+href="https://www.dropbox.com/s/fbm9ywbkscgt28i/UnderwritersonBoards_appendix.pdf?raw=1">Web
+Appendix</a>]</p>
+<p> </p>
+</div>
+</div>
+<div
+id="rising-through-the-ranks-the-evolution-of-the-market-for-corporate-executives-1936-2003"
+class="section level4">
+<h4>Rising Through the Ranks: The Evolution of the Market for Corporate
+Executives, 1936-2003</h4>
+<div id="management-science-november-2019-vol.-6511"
+class="section level5">
+<h5>Management Science, November 2019, vol. 65(11)</h5>
+<p>[<a
+href="https://www.dropbox.com/s/ghmubctcx5a5m2d/Frydman_Rising%20Through%20the%20Ranks_2018.pdf?raw=1">Paper</a>]</p>
+<p> </p>
+</div>
+</div>
+<div
+id="economic-effects-of-early-shadow-banks-trust-companies-and-the-panic-of-1907"
+class="section level4">
+<h4>Economic Effects of Early `Shadow Banks’: Trust Companies and the
+Panic of 1907</h4>
+<p>(with <a href="http://www.erichilt.net/">Eric Hilt</a> and Lily Y.
+Zhou)</p>
+<div id="journal-of-political-economy-august-2015-vol.-1234-902-40."
+class="section level5">
+<h5>Journal of Political Economy, August 2015, vol. 123(4): 902-40.</h5>
+<p>[<a
+href="https://www.dropbox.com/s/oazgwzf4dthwdi3/Panic_0314.pdf?raw=1">Paper</a>]</p>
+<p> </p>
+</div>
+</div>
+<div id="military-ceos" class="section level4">
+<h4>Military CEOs</h4>
+<p>(with <a href="https://effibenmelech.com/">Efraim Benmelech</a>)</p>
+<div id="journal-of-financial-economics-july-2015-vol.-1171-43-59."
+class="section level5">
+<h5>Journal of Financial Economics, July 2015, vol. 117(1): 43-59.</h5>
+<p>[<a
+href="https://www.dropbox.com/s/pju6n8brlfqzzla/militaryceos_Dec_2013.pdf?raw=1">Paper</a>]</p>
+<p> </p>
+</div>
+</div>
+<div id="pay-cuts-for-the-boss-executive-compensation-in-the-1940s"
+class="section level4">
+<h4>Pay Cuts for the Boss: Executive Compensation in the 1940s</h4>
+<p>(joint with <a
+href="https://www.federalreserve.gov/econres/raven-molloy.htm">Raven
+Molloy</a>)</p>
+<div id="journal-of-economic-history-72-march-2012-225-251"
+class="section level5">
+<h5>Journal of Economic History 72 (March 2012): 225-251</h5>
+<p>[<a
+href="https://www.dropbox.com/s/83i0mycda78g1a2/frydmanmolloy_paycuts.pdf?raw=1">Paper</a>]</p>
+<p> </p>
+</div>
+</div>
+<div
+id="does-tax-policy-affect-executive-compensation-evidence-from-postwar-tax-reforms"
+class="section level4">
+<h4>Does Tax Policy Affect Executive Compensation? Evidence from Postwar
+Tax Reforms</h4>
+<p>(with <a
+href="https://www.federalreserve.gov/econres/raven-molloy.htm">Raven
+Molloy</a>)</p>
+<div id="journal-of-public-economics-95-december-2011-1425-37"
+class="section level5">
+<h5>Journal of Public Economics 95 (December 2011): 1425-37</h5>
+<p>[<a
+href="https://www.dropbox.com/s/zzofok45sxfhclc/taxec_frydmanmolloy_1110.pdf?raw=1">Paper</a>]</p>
+<p> </p>
+</div>
+</div>
+<div id="ceo-compensation" class="section level4">
+<h4>CEO Compensation</h4>
+<p>(with <a
+href="https://www.lse.ac.uk/finance/people/faculty/Jenter">Dirk
+Jenter</a>)</p>
+<div id="annual-review-of-financial-economics-2-december-2010-75-102"
+class="section level5">
+<h5>Annual Review of Financial Economics 2 (December 2010): 75-102</h5>
+<p>[<a
+href="https://www.annualreviews.org/doi/full/10.1146/annurev-financial-120209-133958">Paper</a>]</p>
+<p> </p>
+</div>
+</div>
+<div
+id="executive-compensation-a-new-view-from-a-long-term-perspective-1936-2005"
+class="section level4">
+<h4>Executive Compensation: A New View from a Long-Term Perspective,
+1936-2005</h4>
+<p>(with <a
+href="https://www.federalreserve.gov/econres/raven-molloy.htm">Raven
+Saks</a>)</p>
+<div id="review-of-financial-studies-23-may-2010-2099-2138"
+class="section level5">
+<h5>Review of Financial Studies 23 (May 2010): 2099-2138</h5>
+<p>[<a
+href="https://www.dropbox.com/s/4xs5xbjhgt833oq/trends_rfs2010.pdf?raw=1">Paper</a>]
+[<a
+href="https://www.dropbox.com/s/5qf7zhxskevq8sa/appendix1109.pdf?raw=1">Web
+Appendix</a>] [<a
+href="https://www.dropbox.com/s/dr9t2md3eixh3gg/frydmansaks_figures_rfs.xlsx?raw=1">Data</a>]
+[<a
+href="https://www.dropbox.com/s/rzt4d6u8nma53hr/frydmansaks.dta.zip?raw=1">Micro-level
+Data</a>]</p>
+</div>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
