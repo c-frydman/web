@@ -1,0 +1,38 @@
+name: "Carola Frydman"                                # CHANGE HERE 
+output_dir: "."
+navbar:
+  type: inverse
+  left:
+    - text: "Home"
+      icon: fa-home
+      href: index.html
+    - text: "Working Papers"
+      icon: fa-newspaper-o
+      href: wp.html
+    - text: "Publications"
+      icon: fa-graduation-cap 
+      href: pub.html
+    - text: "Other"
+      icon: fa-commenting-o 
+      href: opub.html
+    - text: "Data"
+      icon: fa-database  
+      href: data.html
+    - text: "Media"
+      icon: fa-podcast  
+      href: media.html
+    - text: "CV"
+      icon: fa-file-pdf-o
+      href: https://www.dropbox.com/scl/fi/qgpy6v7nz23hse6x14oq5/CV_Frydman_Carola_0924.pdf?rlkey=wp32q4hj2dxg96ly5yt47j7cr&raw=1
+  right:
+    - text: "Email"
+      icon: fa-envelope-o
+      href: mailto:c-frydman@kellogg.northwestern.edu                    # CHANGE HERE 
+    - text: "Google Scholar"
+      icon: fa-google
+      href: https://scholar.google.com/citations?user=td7j7bEAAAAJ&hl=en       # CHANGE HERE 
+output:
+  html_document:
+    theme: spacelab    
+    highlight: textmate
+    

@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Media Cites</title>
+
+<script src="site_libs/header-attrs-2.28/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/spacelab.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-6.4.2/css/all.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.2/css/v4-shims.min.css" rel="stylesheet" />
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-inverse  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html"></a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">
+    <span class="fa fa-home"></span>
+     
+    Home
+  </a>
+</li>
+<li>
+  <a href="wp.html">
+    <span class="fa fa-newspaper-o"></span>
+     
+    Working Papers
+  </a>
+</li>
+<li>
+  <a href="pub.html">
+    <span class="fa fa-graduation-cap"></span>
+     
+    Publications
+  </a>
+</li>
+<li>
+  <a href="opub.html">
+    <span class="fa fa-commenting-o"></span>
+     
+    Other
+  </a>
+</li>
+<li>
+  <a href="data.html">
+    <span class="fa fa-database"></span>
+     
+    Data
+  </a>
+</li>
+<li>
+  <a href="media.html">
+    <span class="fa fa-podcast"></span>
+     
+    Media
+  </a>
+</li>
+<li>
+  <a href="https://www.dropbox.com/scl/fi/qgpy6v7nz23hse6x14oq5/CV_Frydman_Carola_0924.pdf?rlkey=wp32q4hj2dxg96ly5yt47j7cr&amp;raw=1">
+    <span class="fa fa-file-pdf-o"></span>
+     
+    CV
+  </a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="mailto:c-frydman@kellogg.northwestern.edu">
+    <span class="fa fa-envelope-o"></span>
+     
+    Email
+  </a>
+</li>
+<li>
+  <a href="https://scholar.google.com/citations?user=td7j7bEAAAAJ&amp;hl=en">
+    <span class="fa fa-google"></span>
+     
+    Google Scholar
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Media Cites</h1>
+
+</div>
+
+
+<p> </p>
+<p>(last update 2017)</p>
+<p><a
+href="http://www.npr.org/2017/08/23/545289536/why-donald-trump-likes-to-surround-himself-with-generals">NPR,
+August 23, 2017, “Why Donald Trump Likes to Surround Himself with
+Generals,”</a></p>
+<p><a
+href="https://insight.kellogg.northwestern.edu/article/technological-innovation-and-the-executive-pay-gap">Kellogg
+Insight, August 3, 2017, “Why Has CEO Pay Grown So Much Faster Than the
+Average Worker’s?”</a></p>
+<p><a
+href="http://www.seattletimes.com/business/extreme-compensation-has-become-the-norm/">The
+Seattle Times, July 15, 2017, “Extreme compensation has become the
+norm”</a></p>
+<p><a
+href="http://blogs.lse.ac.uk/businessreview/2017/03/30/the-interlock-between-company-boards-and-investment-banks-in-the-early-1900s/">LSE
+Business Review, March 30, 2017, “The interlock between company boards
+and investment banks in the early 1900s,”</a></p>
+<p><a
+href="http://www.wsj.com/articles/how-short-termism-saps-the-economy-1475018087">The
+Wall Street Journal, September 27, 2016, “How Short-Termism Saps the
+Economy,” by V.P. Joe Biden</a></p>
+<p><a
+href="http://www.csmonitor.com/Business/2016/0905/CEO-pay-still-high-but-no-longer-a-runaway-train">The
+Christian Science Monitor, September 5, 2016, “CEO pay still high, but
+no longer runaway train,” by Laurent Belsie</a></p>
+<p><a
+href="http://www.theatlantic.com/magazine/archive/2016/04/ceos-behaving-badly/471513/">The
+Atlantic, April 2016 issue, “CEOs Behaving Badly,” by Alyza
+Sebenius,</a></p>
+<p><a
+href="https://www.washingtonpost.com/opinions/the-ceo-backlash/2015/06/21/8dd31c14-169e-11e5-9ddc-e3353542100c_story.html?utm_term=.d2a43347f521">The
+Washington Post, June 21, 2015, “The CEO backlash,” by Robert J.
+Samuelson</a></p>
+<p><a
+href="http://www.theatlantic.com/business/archive/2014/10/can-ceo-pay-ever-be-reeled-in/382042/">The
+Atlantic, October 29, 2014, “Can CEO Pay Ever Be Reeled In?,” by Susan
+Holmberg and Mark Schmitt</a></p>
+<p><a
+href="http://www.lesechos.fr/14/08/2014/LesEchos/21750-030-ECH_thomas-piketty-et-l-illusion-des-inegalites.htm">LesEchos,
+August 14, 2014, “Thomas Piketty et l’illusion des inegalites, by Pierre
+Chaigneau</a></p>
+<p><a
+href="http://fortune.com/2014/01/22/military-veterans-natural-born-ceos/?iid=sr-link1">Fortune
+Magazine, January 22, 2014, “Military veterans: Natural born CEOS?,” by
+Elizabeth G. Olson</a></p>
+<p><a
+href="http://www.businessinsider.com/leadership-traits-of-military-ceos-2014-1">Business
+Insider, January 1, 2014, “3 Reasons CEOs With Military Experience Make
+the Best Leaders, by Alison Griswold</a></p>
+<p><a href="http://www.economist.com/whichmba/mba-diary-good-grief">The
+Economist, November 19, 2013, “MBA Diary: Good grief,” by Mohamed
+Mansour</a></p>
+<p><a
+href="http://www.huffingtonpost.com/2013/07/23/executive-pay-caps-not-working_n_3639281.html">Hufftington
+Post (Business), July 23, 2013, “Why CEO Pay Exploded Over the Last 20
+Years,” by Caroline Fairchild</a></p>
+<p><a
+href="http://www.huffingtonpost.com/adam-grant/where-great-leaders-earn_b_3526101.html">Hufftington
+Post, June 30, 2013, “Where Great Leaders Earn Their Stripes,” by Adam
+Grant</a></p>
+<p><a
+href="http://www.businessweek.com/news/2013-05-08/apple-to-google-pay-cfos-most-as-stocks-climb-with-cash">Bloomberg,
+May 8, 2013, “Apple, Oracle Pay Their CFOs the Most as Cash Hoards,” by
+Adam Satariano and Brian Womack</a></p>
+<p><a
+href="http://clomedia.com/articles/view/how-to-optimize-company-performance">Chief
+Learning Officer Magazine, April 1, 2013, “How to Optimize Company
+Performance, by Stacey Petrey</a></p>
+<p><a
+href="http://www.smh.com.au/business/an-officer-and-an-executive--how-the-roles-stack-up-20130315-2g66y.html">The
+Sydney Morning Herald, March 16, 2003, “An officer and an executive –
+how the roles stack up,” by Peter Cai</a></p>
+<p><a
+href="http://www.usatoday.com/story/money/business/2013/01/28/marine-business-training/1870569/">USA
+Today, January 29, 2013, “Executives learn ethics the hard way: From
+Marines,” by Jim Michaels</a></p>
+<p><a
+href="http://www.worldfinance.com/home/special-reports-home/because-were-worth-it">World
+Finance, September 4, 2012, “Because we’re worth it,” by Katie
+Richardson</a></p>
+<p><a
+href="http://online.wsj.com/article/SB10001424052702304458604577490580206500166.html">Wall
+Street Journal, July 6, 2012, “Playing Your Options,” Ben
+Levisohn</a></p>
+<p><a
+href="http://www.slate.com/articles/business/the_dismal_science/2012/05/ceos_who_served_in_the_military_are_they_more_honest_.html">Slate,
+May 25, 2012, “Captains of Industry,” by Ray Fisman</a></p>
+<p><a
+href="http://www.breakingviews.com/fat-cats-have-little-to-fear-from-cameron-curbs/1621382.article">Reuters
+BreakingViews, January 4, 2012, “Fat cats have little to fear from
+Cameron curbs,” by Edward Hadas</a></p>
+<p><a
+href="https://www.washingtonpost.com/opinions/no-longer-the-land-of-opportunity/2012/01/02/gIQAOJVDZP_story.html?utm_term=.5160952b9b55">The
+Washington Post, January 3, 2012, “No longer the land of opportunity,”
+by Harold Meyerson</a></p>
+<p><a
+href="http://articles.washingtonpost.com/2011-09-09/opinions/35273443_1_executive-compensation-unions-chief-executives">The
+Washington Post, September 09, 2011, “Has executive pay ever gone down?
+Yes—in the 1940s,” by Justin Moyer</a></p>
+<p><a
+href="http://articles.philly.com/2011-08-14/news/29886744_1_equilar-stock-market-capital-gains">Philadelphia
+Inquirer, August 14, 2011, “Turning to the experts for the `why’ of big
+corporate paychecks, by Maria Panaritis</a></p>
+<p><a
+href="http://articles.washingtonpost.com/2011-06-24/business/35234090_1_executive-compensation-companies-hr-policy-association">The
+Washington Post, June 24, 2011, “Business Group: Public ompanies
+shouldn’t have to compare CEO and worker pay,” by Peter
+Whoriskey</a></p>
+<p><a
+href="http://www.washingtonpost.com/wp-srv/special/business/income-inequality/">The
+Washington Post, June 18, 2011, “(Not) Spreading the Wealth,”</a></p>
+<p><a
+href="http://articles.washingtonpost.com/2011-06-18/business/35234600_1_income-gap-personal-income-capital-gains">The
+Washington Post, June 18, 2011, “With executive pay, rich pull away from
+rest of America, by Peter Whoriskey</a></p>
+<p><a
+href="http://www.scpr.org/programs/patt-morrison/2011/06/29/who-are-the-richest-americans-as-the-gap-grows-bet/">Southern
+California Public Radio, June 06, 2011, “Who are the Richest Americans?
+As the Gap Grows Between the Richest and Poorest, a Look at the Wealthy
+Elite,” by Patt Morrison</a></p>
+<p><a
+href="http://www.businessweek.com/news/2010-11-17/bankers-pay-should-be-subject-to-clawbacks-iif-says.html">Bloomberg
+/ Business Week, November 17, 2010, “Bankers’ pay should be subject to
+clawbacks, IIF says,”</a></p>
+<p><a
+href="http://www.slate.com/articles/news_and_politics/the_great_divergence/features/2010/the_united_states_of_inequality/the_stinking_rich_and_the_great_divergence.html">Slate,
+September 14, 2010, “The United States of Inequality,” by Timothy
+Noah</a></p>
+<p><a href="http://www.economist.com/debate/days/view/563">The Economist
+(Economist Debates), August 19, 2010, Featured guest on Debate on
+“Regulating Pay”</a></p>
+<p><a
+href="http://www.businessweek.com/magazine/content/10_14/b4172050535248.htm">Bloomberg
+/ Business Week, March 25, 2010, “CEO Pay Drops, but Cash is King,” by
+Alexis Leondis, Jessica Silver-Greenberg, and Tara Kalwarski</a></p>
+<p><a
+href="http://www.newsobserver.com/2010/03/17/392661/military-skills-that-make-great.html">News
+Observer, March 17, 2010, “Military skills that make great CEOs,” by
+Rick Martinez</a></p>
+<p><a href="http://www.wsj.com/articles/SB125254156520197777">The Wall
+Street Journal, September 10, 2009, “Income Gap Shrinks in Slump at the
+Expense of the Wealthy,” by Bob Davis and Robert Frank</a></p>
+<p><a
+href="http://www.american.com/archive/2008/september-october-magazine/the-american-scene">The
+American Magazine (The American Scene), September 29, 2008, “Pay to
+Performance”</a></p>
+<p><a
+href="http://www.investmentnews.com/article/20080728/REG/520317517">Investment
+News, July 28, 2008, “CEO compensation reports are illuminating,” by
+Michael Clowes</a></p>
+<p><a
+href="http://www.nytimes.com/2007/05/25/business/25execs.html?ex=1337745600&amp;en=59c9543d9b92883b&amp;ei=5088&amp;partner=rssnyt&amp;emc=rss">New
+York Times, May 25, 2007, “More Than Ever, It Pays to Be the Top
+Executive, by Eduardo Porter</a></p>
+<p><a href="http://www.corwin.com/upm-data/31939_2.pdf">CQ Researcher,
+March 9, 2007, “Curbing CEO Pay. Is Executive Compensation Out of
+Control?” by Thomas J. Billiteri</a></p>
+<p><a href="http://www.economist.com/node/8513949">The Economist,
+January 18, 2007, “Special Report: Executive Pay,” by Edward
+Carr</a></p>
+<p><a
+href="http://online.wsj.com/public/article/SB116718927302760228-N9OV_AeDh_nT31VqRKS1wZeGN3w_20070223.html?mod=blogs">Wall
+Street Journal, December 27, 2006, “Bosses’ Pay: How Stock Options
+Became Part of the Problem,” by Mark Maremont and Charles Forelle,
+article was winner of the Pulitzer Prize</a></p>
+<p><a
+href="http://www.nytimes.com/2006/11/27/business/27richer.html?ex=1177560000&amp;en=b5707468e7e266d2&amp;ei=5070">New
+York Times, November 27, 2006, “Gilded Paychecks: Lure of Great Wealth
+Affects Career Choices,” by Louis Uchitelle</a></p>
+<p><a
+href="http://www.nytimes.com/2006/11/27/business/worldbusiness/27iht-web.1127rich.3679607.html?pagewanted=all">New
+York Times, October 27, 2006, “Very rich are leaving the merely ruck
+behind,” by Louis Uchitelle</a></p>
+<p><a
+href="http://online.wsj.com/article/SB116062249630690247.html">Wall
+Street Journal, October 12, 2006, “Behind Soaring Executive Pay, Decades
+of Failed Restraints,” by Scott Thurm</a></p>
+<p><a
+href="http://www.nytimes.com/2006/04/10/business/10pay.html?pagewanted=all">New
+York Times, April 10, 2006, “Outside Advice on Boss’s Pay May Not Be So
+Independent,” by Gretchen Morgenson</a></p>
+<p><a
+href="http://www.nytimes.com/2006/04/09/business/businessspecial/09pay.html?pagewanted=1&amp;_r=0&amp;ei=5090&amp;en=8bd05e2a3f236042&amp;ex=1302235200&amp;partner=rssuserland&amp;emc=rss">New
+York Times, April 9, 2006, “Off to the Races Again, Leaving Many
+Behind,” by Eric Dash</a></p>
+<p><a
+href="http://online.wsj.com/public/article/SB114281167065802514-Y0Ift7wlA2qBRQkmrILK430pwIM_20070319.html?mod=blogs">Wall
+Street Journal, March 20, 2006, “Snow Defends President’s Handling of
+the Economy,” by Greg Ip</a></p>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
